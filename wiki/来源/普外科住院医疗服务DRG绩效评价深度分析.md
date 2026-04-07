@@ -4,11 +4,13 @@ date: unknown
 type: 来源
 tags: [DRG, 科室分析, 普外科, 病房绩效]
 source: raw/docx/普外科住院医疗服务DRG绩效评价深度分析.docx
+wechat_url: "https://mp.weixin.qq.com/s/JAY4d94K_pmQ98egejpDeg"
 ---
 
 # 普外科住院医疗服务DRG绩效评价深度分析
 
 ## 来源信息
+- **原文链接**：[点击在微信端阅读全文](https://mp.weixin.qq.com/s/JAY4d94K_pmQ98egejpDeg)
 
 - **原始文件**：`raw/docx/普外科住院医疗服务DRG绩效评价深度分析.docx`
 - **科室**：普外科（四病房）

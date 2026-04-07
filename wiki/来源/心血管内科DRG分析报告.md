@@ -4,11 +4,13 @@ date: 2026-01-28
 type: 来源
 tags: [DRG, 科室分析, 心内科]
 source: raw/docx/心血管内科DRG分析报告.docx
+wechat_url: "https://mp.weixin.qq.com/s/ydu_QWIwSlgF9iVffwzSOA"
 ---
 
 # 心血管内科DRG分析报告
 
 ## 来源信息
+- **原文链接**：[点击在微信端阅读全文](https://mp.weixin.qq.com/s/ydu_QWIwSlgF9iVffwzSOA)
 
 - **原始文件**：`raw/docx/心血管内科DRG分析报告.docx`
 - **日期**：2026-01-28

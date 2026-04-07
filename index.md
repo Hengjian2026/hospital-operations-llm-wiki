@@ -5,7 +5,7 @@
 
 *提示：由于添加了 YAML frontmatter，您可以使用 Dataview 插件进行动态检索，例如使用以下查询展示带有最新日期的来源文档。*
 ```dataview
-TABLE type, tags, date
+TABLE type AS "类型", tags AS "标签", date AS "日期", choice(wechat_url, "[🔗点击阅读](" + wechat_url + ")", "⏳待发布") AS "微信发布状态"
 FROM "wiki/来源"
 SORT date DESC
 ```
