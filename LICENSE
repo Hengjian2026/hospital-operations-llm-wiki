@@ -1,21 +1,35 @@
-# 知识库开源使用与免责许可协议 (License and Disclaimer)
+The MIT License (MIT) with Healthcare & Non-Commercial Restrictions
 
-本知识库（包括但不限于所有 Markdown 文档、脚本代码、分析框架及数据图表）基于以下条款提供给公众使用：
+Copyright (c) 2026 Hengjian2026
 
-## 1. 使用授权
-授予任何获得本知识库副本的人员在遵守本协议的前提下，免费使用、复制、修改、合并和发布本知识库内容的权利。
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## 2. 非商业用途限制 (Non-Commercial Use Only)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+## 附加限制条款 (Additional Restrictions)
+
+### 1. 非商业用途限制 (Non-Commercial Use Only)
 本知识库及其衍生作品**仅供学习、研究、教育和方法论探讨使用**。
 未经作者明确书面许可，任何人**不得**将本知识库的内容、框架、自动化脚本或其生成的分析结果直接或间接用于任何商业盈利目的（包括但不限于将本框架打包作为商业SaaS产品出售、用于商业咨询项目的直接交付物等）。
 
-## 3. 禁止用于真实医疗决策 (No Medical or Clinical Decisions)
+### 2. 禁止用于真实医疗决策 (No Medical or Clinical Decisions)
 本知识库中涉及的所有医院运营分析、病种分析、DRG/DIP 绩效评估及管理建议，**均仅为数据分析方法论的演示**。
 本知识库**不得**作为任何真实的临床诊疗、医疗干预、医院经营战略制定、医保结算审核等活动的依据。使用者在实际医疗管理场景中应用相关分析方法时，必须依赖真实的业务数据和专业的管理决策程序，作者对此不承担任何责任。
 
-## 4. 数据脱敏与隐私审查 (Data Sanitization and Privacy)
+### 3. 数据脱敏与隐私审查 (Data Sanitization and Privacy)
 - **数据虚构声明**：本知识库初始包含的所有原始文档内容、科室名称、指标数据、费用明细等，均已通过严格的数据脱敏、匿名化处理或为完全虚构的合成数据（Mock Data）。本知识库**绝不包含**任何真实患者的个人身份信息（PII）、个人健康信息（PHI）或任何医院真实的未公开财务流水。
 - **使用者责任**：当使用者在自己的环境中克隆并继续维护本知识库时，若使用者自行摄入（Ingest）了包含真实患者隐私或医院机密的数据，**数据的合规性、脱敏责任及相关的法律风险均由使用者自行承担**。强烈建议使用者在摄入任何真实文档前，做好严格的隐私审查和数据脱敏（Sanitization）工作。
 
-## 5. 免责声明 (Disclaimer of Warranty)
-本知识库是“按原样”提供的，没有任何明示或暗示的保证，包括但不限于对适销性、特定用途适用性和非侵权性的保证。在任何情况下，作者或版权持有人均不对因使用本知识库或与本知识库有关的任何索赔、损害或其他责任负责，无论是在合同诉讼、侵权诉讼或其他诉讼中。
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
