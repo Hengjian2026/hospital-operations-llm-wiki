@@ -1,0 +1,38 @@
+# 操作系统产生的文件
+.DS_Store
+Thumbs.db
+*.swp
+
+# Python 缓存和虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Obsidian 本地工作空间配置 (包含个人的窗口布局、阅读痕迹等，不应开源)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# 环境变量及敏感配置 (如存放 LLM API Key 的文件)
+.env
+.env.local
+.env.*
+
+# IDE 及编辑器配置
+.vscode/
+.idea/
+*.suo
+*.ntvs
+*.njsproj
+*.sln
+
+# (可选) 若开源时想清空原始 raw 数据，可取消注释下面这行，只保留目录结构
+raw/docx/*
+!raw/docx/.gitkeep
+raw/doc/*
+!raw/doc/.gitkeep
+raw/mp4/*
+!raw/mp4/.gitkeep
