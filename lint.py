@@ -58,15 +58,34 @@ def check_orphans():
     # Now check which files in wiki/ are not linked
     wiki_files = scan_markdown_files(wiki_dir)
     orphans = []
+
+    # Build a mapping of page names (without date prefix) to files
+    # Handle files like "20260411-6.1医院运营管理之分组比较（金字塔图）.md"
+    page_name_to_file = {}
     for file in wiki_files:
         basename = os.path.basename(file)
-        page_name = basename[:-3] # Remove .md
-        
+        page_name = basename[:-3]  # Remove .md
+        page_name_to_file[page_name] = file
+        # Also add version without date prefix (YYYYMMDD-)
+        if len(page_name) > 9 and page_name[8] == '-':
+            name_without_date = page_name[9:]
+            page_name_to_file[name_without_date] = file
+
+    for file in wiki_files:
+        basename = os.path.basename(file)
+        page_name = basename[:-3]  # Remove .md
+
         # Don't consider index pages as orphans typically
         if page_name.lower() in ['index', '-首页']:
             continue
-            
-        if page_name.strip() not in all_links:
+
+        # Check if page is linked (either with full name or without date prefix)
+        is_linked = page_name.strip() in all_links
+        if not is_linked and len(page_name) > 9 and page_name[8] == '-':
+            # Try without date prefix
+            is_linked = page_name[9:].strip() in all_links
+
+        if not is_linked:
             orphans.append(file)
 
     if orphans:
